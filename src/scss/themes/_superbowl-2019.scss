@@ -1,0 +1,18 @@
+html{
+	background-color: #AEAEAE;
+}
+html:before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	height: 400%;
+	width: 100%;
+	margin-top: 80px;
+	background-color: #AEAEAE;
+	background-image: url("../img/superbowl-hero-19.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#header{
+	background: #fff;
+}

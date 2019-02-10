@@ -1,14 +1,13 @@
-# AAFB Subreddits
+[Rules/Posting Guidelines](/r/aafb/wiki/postingguidelines "subreddit-rules")
 
-* /r/aafb - Alliance of American Football
-* /r/ARZHotshots - Arizona Hotshots
-* /r/ATLLegends - Atlana Legends
-* /r/BHIron - Birmingham Iron
-* /r/MemExpress - Memphis Express
-* /r/OrlApollos - Orlando Apollos
-* /r/SLCStallions - Salt Lake City Stallions
-* /r/CommandersSA - San Antonio Commanders
-* /r/SDFleet - San Diego Fleet
+# Week 1
+
+| Time | Away |  @  | Home |
+|:-----|:----:|:---:|:----:|
+| Sat 08:00PM | [*SD*](/r/SDFleet) | @ |  [*SA*](/r/CommandersSA) |
+| Sat 08:00PM | [*ATL*](/r/ATLLegends) | @ |  [*ORL*](/r/OrlApollos) |
+| Sun 04:00PM | [*MEM*](/r/r/MemExpress) | @ |  [*BIR*](/r/BHIron) |
+| Sun 08:00PM | [*SL*](/r/SLCStallions) | @ |  [*ARI*](/r/ARZHotshots) |
 
 # Football Subreddits
 
@@ -33,5 +32,4 @@
 
 #  [](/blank)
 
-* [](/r/ARZHotshots) [](/r/ATLLegends) [](/r/BHIron) [](/r/MemExpress)
-* [](/r/OrlApollos) [](/r/SLCStallions) [](/r/CommandersSA) [](/r/SDFleet)
+* [](/r/ARZHotshots) [](/r/ATLLegends) [](/r/BHIron) [](/r/MemExpress) [](/r/OrlApollos) [](/r/SLCStallions) [](/r/CommandersSA) [](/r/SDFleet) 

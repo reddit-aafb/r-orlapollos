@@ -7,6 +7,12 @@ $nfl-draft-gold: #C9A00F;
 $nfl-draft-black: #2F2E32;
 $h-switchboard-height: 0;
 
+$nameSpace: aafb;
+
+$color-first: #0B2244;
+$color-second: #EE5235;
+$color-third: #F1823B;
+
 // Media Breaks
 $breakpoints: (name: max, size: 1700, num:20),
 	  (name: medium, size:1040, num:10),
@@ -21,14 +27,14 @@ $media-stack:
 
 // NFL Teams
 $nfl-teams: (name:aafb, abbr:AAFB, url:aafb, fg:$nfl-0, bg:$nfl-blue, eliminated: false, champion: false),
-	(name:Hotshots, abbr:ARI, url:ARZHotshots, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Legends, abbr:ATL, url:ATLLegends, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Iron, abbr:BIR, url:BHIron, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Express, abbr:MEM, url:MemExpress, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Apollos, abbr:ORL, url:OrlApollos, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Stallions, abbr:SLC, url:SLCStallions, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Commanders, abbr:SA, url:CommandersSA, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false),
-	(name:Fleet, abbr:SD, url:SDFleet, fg:#FFFFFF, bg:#97233F, eliminated: false, champion: false);
+	(name:Hotshots, abbr:ARI, url:ARZHotshots, fg:#FFFFFF, bg:#F7B643, eliminated: false, champion: false),
+	(name:Legends, abbr:ATL, url:ATLLegends, fg:#FFFFFF, bg:#8540AD, eliminated: false, champion: false),
+	(name:Iron, abbr:BIR, url:BHIron, fg:#FFFFFF, bg:#C4C6C8, eliminated: false, champion: false),
+	(name:Express, abbr:MEM, url:MemExpress, fg:#FFFFFF, bg:#D23131, eliminated: false, champion: false),
+	(name:Apollos, abbr:ORL, url:OrlApollos, fg:#FFFFFF, bg:#F1813A, eliminated: false, champion: false),
+	(name:Stallions, abbr:SLC, url:SLCStallions, fg:#FFFFFF, bg:#3A99CB, eliminated: false, champion: false),
+	(name:Commanders, abbr:SA, url:CommandersSA, fg:#FFFFFF, bg:#C3BFBF, eliminated: false, champion: false),
+	(name:Fleet, abbr:SD, url:SDFleet, fg:#FFFFFF, bg:#F9C546, eliminated: false, champion: false);
 
 // Fonts Info
 $f-stack1: "Lucida Grande", "Lucida Sans Unicode", sans-serif;

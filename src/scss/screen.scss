@@ -8,6 +8,8 @@
 @import "./modules/_variables.scss";
 @import "./modules/_mixins.scss";
 @import "./modules/_placeholders.scss";
+@import "./modules/_transitions.scss";
+@import "./modules/_animations.scss";
 
 // Patterns
 @import "./patterns/_typography.scss";
@@ -27,7 +29,7 @@
 @import "./post-types/_thread-pressbox.scss";
 
 // Themes
-@import "./themes/_superbowl-2019.scss";
+@import "./themes/_orange-theme.scss";
 
 // yeah, no reddit new button
 #sr-header-area div.redesign-beta-optin{

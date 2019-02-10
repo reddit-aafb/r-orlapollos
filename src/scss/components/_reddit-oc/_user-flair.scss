@@ -70,14 +70,6 @@ body.moderator #siteTable .flair{
 #siteTable .tagline .flair-official {
   display: inline-block !important;
 }
-// Bandwagon flair
-.flair-bandwagon {
-  width: 48px;
-  &::before{
-    background-image: url(../img/logos-160x80--bw.png);
-    width: 40px;
-  }
-}
 
 // Link logos
 %team-link{
@@ -87,7 +79,7 @@ body.moderator #siteTable .flair{
   width: 20px;
   margin: 0 4px 0 0;
   vertical-align: middle;
-  background-image: url("../img/logos-80x80.png");
+  background-image: url("../img/logos-160x160.png");
   background-size: 100%;
 }
 
@@ -103,7 +95,7 @@ div.comment.noncollapsed > .entry > .tagline > a.author.moderator {
         top: 8px; // Magic value - appears to differ 1px between FF and Chrome
         position: relative;
         background-color: white;
-        background-image: url("../img/logos-80x80.png");
+        background-image: url("../img/logos-160x160.png");
         background-size: 100%;
     }
 }
@@ -112,6 +104,7 @@ div.comment.noncollapsed > .entry > .tagline > a.author.moderator {
 // Gets background position for all teams for flair, link images, and abbr images.
 $pos-20: 0px;
 $pos-32: 0px;
+$pos-100:  0%;
 @each $team in $nfl-teams{
   $thisName: map-get($team, name);
   $thisAbbr: map-get($team, abbr);
@@ -136,7 +129,7 @@ $pos-32: 0px;
   .md a[href*="/#{$thisAbbr}"]::before,
   .md a[href*="/#{to-upper-case(#{$thisUrl})}"]::before,
   .md a[href*="/#{to-upper-case(#{$thisAbbr})}"]::before{
-    background-position: 0 $pos-20;
+    background-position: 0 $pos-100;
     @if $thisEliminated {
         opacity: .4;
     }
@@ -147,6 +140,13 @@ $pos-32: 0px;
 			background-size: contain;
     }
   }
+	.flair-#{$thisName}::after,
+	.md a[href*="/r/#{$thisUrl}"]::after,
+	.md a[href*="/#{$thisAbbr}"]::after,
+	.md a[href*="/#{to-upper-case(#{$thisUrl})}"]::after,
+	.md a[href*="/#{to-upper-case(#{$thisAbbr})}"]::after{
+		background: $thisBg;
+	}
   .flair-#{$thisName}.flair-official {
     &:before{
       background-position: 0 (0 - $pos-32);
@@ -165,6 +165,7 @@ $pos-32: 0px;
   }
   $pos-20: $pos-20 - 20px;
   $pos-32: $pos-32 - -32px;
+  $pos-100: $pos-100 - 100%;
 }
 
 /* Special flair */

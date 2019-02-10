@@ -83,3 +83,9 @@
 		top: $h-reddit-nav + $h-team-header + $h-sub-nav + $h-hero + ($sidebarLinksHeight * $count);
 	}
 }
+
+@mixin keyframes($name) {
+	@keyframes #{$name} {
+		@content;
+	}
+}

@@ -138,6 +138,8 @@ gulp.task('build:css', function(){
 		.pipe(replace(".jpg", "%%"))
 		.pipe(replace(".png", "%%"))
 		.pipe(postcss(post_process))
+		.pipe(replace("-webkit-box-align:center;", ""))
+		.pipe(replace("-moz-box-align:center;", ""))
 		.pipe(gulp.dest(task_info.dist))
 		.pipe(live_reload());
 });
